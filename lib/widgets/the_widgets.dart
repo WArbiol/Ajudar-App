@@ -15,9 +15,12 @@ List getWidgets(List<Map<String, String>> widgt) {
     if (i == columns_number - 1 && is_odd) {
       columns.add(const Gap(5));
       if (widgt[2 * i]["type"] == "text") {
-        children.add(TextBox(
-            text: widgt[2 * i]["text"] ?? "",
-            colorHexString: widgt[2 * i]["color"] ?? ""));
+        children.add(
+          TextBox(
+              text: widgt[2 * i]["text"] ?? "",
+              colorHexString: widgt[2 * i]["color"] ?? "",
+              textColorHexString: widgt[2 * i]["textColor"] ?? "0xFF313131"),
+        );
       } else if (widgt[2 * i]["type"] == "image") {
         children.add(ImageBox(path: widgt[2 * i]["path"] ?? ""));
       }
@@ -29,7 +32,8 @@ List getWidgets(List<Map<String, String>> widgt) {
       if (widgt[2 * i]["type"] == "text") {
         children.add(TextBox(
             text: widgt[2 * i]["text"] ?? "",
-            colorHexString: widgt[2 * i]["color"] ?? ""));
+            colorHexString: widgt[2 * i]["color"] ?? "",
+            textColorHexString: widgt[2 * i]["textColor"] ?? "0xFF313131"));
       } else if (widgt[2 * i]["type"] == "image") {
         children.add(ImageBox(path: widgt[2 * i]["path"] ?? ""));
       }
@@ -38,7 +42,8 @@ List getWidgets(List<Map<String, String>> widgt) {
       if (widgt[2 * i + 1]["type"] == "text") {
         children.add(TextBox(
             text: widgt[2 * i + 1]["text"] ?? "",
-            colorHexString: widgt[2 * i + 1]["color"] ?? ""));
+            colorHexString: widgt[2 * i + 1]["color"] ?? "",
+            textColorHexString: widgt[2 * i + 1]["textColor"] ?? "0xFF313131"));
       } else if (widgt[2 * i + 1]["type"] == "image") {
         children.add(ImageBox(path: widgt[2 * i + 1]["path"] ?? ""));
       }

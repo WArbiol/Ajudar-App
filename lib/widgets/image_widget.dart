@@ -11,7 +11,7 @@ class ImageBox extends StatelessWidget {
     return Container(
       height: 160,
       margin: const EdgeInsets.only(bottom: 10),
-      width: size.width * .43,
+      width: size.width * .48,
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(12),
           color: Colors.white,

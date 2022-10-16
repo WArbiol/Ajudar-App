@@ -13,8 +13,8 @@ class ImageText extends StatelessWidget {
     final size = AppLayout.getSize(context);
     return Container(
       height: 330,
-      padding: const EdgeInsets.all(15),
-      width: size.width * .43,
+      padding: const EdgeInsets.all(12),
+      width: size.width * .52,
       decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(12),
           color: Colors.white,
