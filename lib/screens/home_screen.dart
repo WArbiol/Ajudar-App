@@ -13,8 +13,8 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScaffoldGradientBackground(
       gradient: const LinearGradient(
-        begin: Alignment.bottomLeft,
-        end: Alignment.topRight,
+        begin: Alignment.bottomCenter,
+        end: Alignment.topCenter,
         colors: [
           Color(0xFF8EC5FC),
           Color(0xFFFFC3FC),

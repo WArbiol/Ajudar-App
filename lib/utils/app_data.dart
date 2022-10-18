@@ -1,5 +1,125 @@
 List<Map<String, dynamic>> ongList = [
   {
+    "name": "Vida Jovem",
+    "info":
+        "Estudo, qualificação e entrada ao mercado de trabalho a jovens da comunidade de Heliópolis (SP).",
+    "path": "assets/images/vidajovem0.jpg",
+    "url": "https://vidajovem.org.br/",
+    "widgets": [
+      {
+        "type": "image",
+        "path": "assets/images/vidajovem1.jpg",
+      },
+      {
+        "type": "text",
+        "text": "+5 mil famílias beneficiadas em 10 municípios da região",
+        "color": "0xFFFF0000",
+        "textColor": "0xFFFEFEFE",
+      },
+      {
+        "type": "text",
+        "text": "Capacitação: Administração - Manutenção de computadores ...",
+        "color": "0xFFF37021",
+        "textColor": "0xFFFEFEFE",
+      },
+      {
+        "type": "text",
+        "text": "... Web Design e Hotelaria e turismo",
+        "color": "0xFFF37021",
+        "textColor": "0xFFFEFEFE",
+      },
+      {
+        "type": "image",
+        "path": "assets/images/vidajovem2.png",
+      },
+      {
+        "type": "image",
+        "path": "assets/images/vidajovem3.png",
+      },
+      {
+        "type": "text",
+        "text": "Cultura: Dança, Música e Teatro",
+        "color": "0xFF239aff",
+        "textColor": "0xFFFEFEFE",
+      },
+      {
+        "type": "image",
+        "path": "assets/images/vidajovem4.png",
+      },
+      {
+        "type": "image",
+        "path": "assets/images/vidajovem5.jpg",
+      },
+      {
+        "type": "text",
+        "text": "E ainda Mentoria Social com profissionais.",
+        "color": "0xFF00AAA5",
+        "textColor": "0xFFFEFEFE",
+      },
+    ]
+  },
+  {
+    "name": "Idesam",
+    "info":
+        "Para uma economia inclusiva e sustentável na Amazônia, contribuindo com a vida dos povos da locais.",
+    "path": "assets/images/idesam0.png",
+    "url": "https://doe.idesam.org/",
+    "widgets": [
+      {
+        "type": "text",
+        "text": "+5 mil famílias beneficiadas em 10 municípios da região",
+        "color": "0xFFFF0000",
+        "textColor": "0xFFFEFEFE",
+      },
+      {
+        "type": "image",
+        "path": "assets/images/idesam1.png",
+      },
+      {
+        "type": "image",
+        "path": "assets/images/idesam2.webp",
+      },
+      {
+        "type": "text",
+        "text":
+            "+100 mil Árvores plantadas e +54 mil ton. de Carbono compensado",
+        "color": "0xFFF37021",
+        "textColor": "0xFFFEFEFE",
+      },
+      {
+        "type": "text",
+        "text":
+            "+115 toneladas de alimentos entregue e +60 comunidades atendidas",
+        "color": "0xFF239aff",
+        "textColor": "0xFFFEFEFE",
+      },
+      {
+        "type": "image",
+        "path": "assets/images/idesam3.webp",
+      },
+      {
+        "type": "image",
+        "path": "assets/images/idesam4.webp",
+      },
+      {
+        "type": "text",
+        "text": "+430 Parcerias estabelecidas e 37 Negócios apoiados",
+        "color": "0xFF00AAA5",
+        "textColor": "0xFFFEFEFE",
+      },
+      {
+        "type": "text",
+        "text": "Trabalho com comunidades, ambiente e com o ecônomico",
+        "color": "0xFF00AAA5",
+        "textColor": "0xFFFEFEFE",
+      },
+      {
+        "type": "image",
+        "path": "assets/images/idesam5.png",
+      },
+    ]
+  },
+  {
     "name": "Cidadão pró-mundo",
     "info":
         "Oportunidades de educação para jovens e adultos de comunidades carentes por meio do ensino de inglês.",
@@ -52,7 +172,7 @@ List<Map<String, dynamic>> ongList = [
   {
     "name": "Natureza Conecta",
     "info":
-        "Crianças com deficiências intelectuais tenham direito a tratamento terapêutico assistida por animais de fazenda.",
+        "Crianças com deficiências intelectuais tenham tratamento terapêutico com animais da fazenda.",
     "path": "assets/images/conecta0.jpg",
     "url": "https://naturezaconecta.com/index.php/doacoes/",
     "widgets": [

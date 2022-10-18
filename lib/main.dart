@@ -1,7 +1,10 @@
 import 'package:ajudar/screens/home_screen.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 void main() {
+  SystemChrome.setSystemUIOverlayStyle(
+      const SystemUiOverlayStyle(statusBarColor: Color(0xffde9ed6)));
   runApp(const MyApp());
 }
 
