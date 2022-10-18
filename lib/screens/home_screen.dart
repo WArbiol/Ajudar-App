@@ -20,6 +20,11 @@ class HomeScreen extends StatelessWidget {
           Color(0xFFFFC3FC),
         ],
       ),
+      appBar: AppBar(
+        toolbarHeight: 10,
+        backgroundColor: Color(0xffde9ed6),
+        elevation: 0,
+      ),
       body: ListView(
         children: [
           Stack(children: [
@@ -29,7 +34,7 @@ class HomeScreen extends StatelessWidget {
                 clipper: WaveClipper(),
                 child: Container(
                   color: Color(0xFFAA336A),
-                  height: 140,
+                  height: 125,
                 ),
               ),
             ),
@@ -39,13 +44,13 @@ class HomeScreen extends StatelessWidget {
                 clipper: WaveClipper(),
                 child: Container(
                   color: Color(0xFFCC90C9),
-                  height: 155,
+                  height: 140,
                 ),
               ),
             ),
             Container(
               padding:
-                  EdgeInsets.only(right: 30, left: 30, top: 30, bottom: 20),
+                  EdgeInsets.only(right: 30, left: 30, top: 15, bottom: 20),
               child: Center(
                 child: Text(
                   "Doe para ajudar\nquem precisa",
