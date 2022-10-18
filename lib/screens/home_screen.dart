@@ -21,7 +21,7 @@ class HomeScreen extends StatelessWidget {
         ],
       ),
       appBar: AppBar(
-        toolbarHeight: 10,
+        toolbarHeight: 0,
         backgroundColor: Color(0xffde9ed6),
         elevation: 0,
       ),
