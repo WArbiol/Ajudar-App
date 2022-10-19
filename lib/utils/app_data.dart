@@ -1,5 +1,65 @@
 List<Map<String, dynamic>> ongList = [
   {
+    "name": "Curso Alberto Santos Dumond",
+    "info":
+        "Administrada por alunos do ITA, fornece educação de qualidade e gratuita a jovens em vulnerabilidade socioeconômica.",
+    "path": "assets/images/casd0.webp",
+    "url": "https://cursosantosdumont.org.br/",
+    "widgets": [
+      {
+        "type": "image",
+        "path": "assets/images/casd1.jpeg",
+      },
+      {
+        "type": "text",
+        "text":
+            "Mais de 80% dos brasileiros de baixa renda não vão para a faculdade",
+        "color": "0xFF00AAA5",
+        "textColor": "0xFFFEFEFE",
+      },
+      {
+        "type": "text",
+        "text": "+100 professores, +700 alunos por ano e +4000 aprovações",
+        "color": "0xFFFF0000",
+        "textColor": "0xFFFEFEFE",
+      },
+      {
+        "type": "image",
+        "path": "assets/images/casd2.jpeg",
+      },
+      {
+        "type": "image",
+        "path": "assets/images/casd3.jpg",
+      },
+      {
+        "type": "text",
+        "text": "2 cursos: CASDVest, CASDinho",
+        "color": "0xFFFAB241",
+      },
+      {
+        "type": "text",
+        "text": "CASDVest: preparação para o vestibular",
+        "color": "0xFF426AB3",
+        "textColor": "0xFFFEFEFE",
+      },
+      {
+        "type": "image",
+        "path": "assets/images/casd5.jpg",
+      },
+      {
+        "type": "image",
+        "path": "assets/images/casd6.jpg",
+      },
+      {
+        "type": "text",
+        "text":
+            "CASDinho: alunos do 8º e 9º ano para conquistar bolsas em ótimas escolas",
+        "color": "0xFF3192B3",
+        "textColor": "0xFFFEFEFE",
+      },
+    ]
+  },
+  {
     "name": "Vida Jovem",
     "info":
         "Estudo, qualificação e entrada ao mercado de trabalho a jovens da comunidade de Heliópolis (SP).",
@@ -18,7 +78,7 @@ List<Map<String, dynamic>> ongList = [
       },
       {
         "type": "text",
-        "text": "Capacitação: Administração - Manutenção de computadores ...",
+        "text": "Capacitação: Administração Manutenção de computadores ...",
         "color": "0xFFF37021",
         "textColor": "0xFFFEFEFE",
       },
@@ -52,7 +112,7 @@ List<Map<String, dynamic>> ongList = [
       },
       {
         "type": "text",
-        "text": "E ainda Mentoria Social com profissionais.",
+        "text": "E Mentoria Social com profissionais.",
         "color": "0xFF00AAA5",
         "textColor": "0xFFFEFEFE",
       },
@@ -68,7 +128,7 @@ List<Map<String, dynamic>> ongList = [
       {
         "type": "text",
         "text": "+5 mil famílias beneficiadas em 10 municípios da região",
-        "color": "0xFFFF0000",
+        "color": "0xFF04CA45",
         "textColor": "0xFFFEFEFE",
       },
       {
@@ -110,7 +170,7 @@ List<Map<String, dynamic>> ongList = [
       {
         "type": "text",
         "text": "Trabalho com comunidades, ambiente e com o ecônomico",
-        "color": "0xFF00AAA5",
+        "color": "0xFF8D2D92",
         "textColor": "0xFFFEFEFE",
       },
       {
@@ -159,7 +219,7 @@ List<Map<String, dynamic>> ongList = [
       {
         "type": "text",
         "text":
-            "Ampliar as perspectivas dos indivíduos e promover a inclusão social.",
+            "Ampliando perspectivas dos indivíduos e promovendo a inclusão social.",
         "color": "0xFF239aff",
         "textColor": "0xFFFEFEFE",
       },
@@ -183,21 +243,20 @@ List<Map<String, dynamic>> ongList = [
       {
         "type": "text",
         "text":
-            "Baseada em organizações internacionais que realizam este trabalho há mais de 50 anos",
+            "Baseada em organizações internacionais que realizam este trabalho há 50 anos",
         "color": "0xFF4DCB4D",
         "textColor": "0xFFFEFEFE",
       },
       {
         "type": "text",
         "text":
-            "De acordo com pesquisas científicas, as crianças tendem a responder às intervenções...",
+            "Pesquisas científicas apontam que crianças respondem às intervenções...",
         "color": "0xFF00AAA5",
         "textColor": "0xFFFEFEFE",
       },
       {
         "type": "text",
-        "text":
-            "... com os animais de maneiras que muitas vezes não respondem às pessoas",
+        "text": "... com os animais de maneiras que não respondem às pessoas",
         "color": "0xFF00AAA5",
         "textColor": "0xFFFEFEFE",
       },
@@ -210,58 +269,6 @@ List<Map<String, dynamic>> ongList = [
       {
         "type": "image",
         "path": "assets/images/conecta2.jpg",
-      },
-    ]
-  },
-  {
-    "name": "Curso Alberto Santos Dumond",
-    "info":
-        "Educação de qualidade e gratuita para jovens em situação de vulnerabilidade socioeconômica.",
-    "path": "assets/images/dara0.jpg",
-    "url": "https://cursosantosdumont.org.br/",
-    "widgets": [
-      {
-        "type": "image",
-        "path": "assets/images/dara1.jpg",
-      },
-      {
-        "type": "text",
-        "text":
-            "Atendimento direto a famílias, Influência em políticas públicas",
-        "color": "0xFF00AAA5",
-        "textColor": "0xFFFEFEFE",
-      },
-      {
-        "type": "text",
-        "text": "Disseminação de conhecimento, Combate à pobreza",
-        "color": "0xFFFF0000",
-        "textColor": "0xFFFEFEFE",
-      },
-      {
-        "type": "image",
-        "path": "assets/images/dara2.jpg",
-      },
-      {
-        "type": "image",
-        "path": "assets/images/dara3.png",
-      },
-      {
-        "type": "text",
-        "text":
-            "Melhor ONG da América Latina e 21ª do mundo pela NGO Advisor - Suiça",
-        "color": "0xFF00AAA5",
-        "textColor": "0xFFFEFEFE",
-      },
-      {
-        "type": "text",
-        "text":
-            "Ações integradas nas áreas de saúde, moradia, renda, cidadania e educação",
-        "color": "0xFF426AB3",
-        "textColor": "0xFFFEFEFE",
-      },
-      {
-        "type": "image",
-        "path": "assets/images/dara4.jpg",
       },
     ]
   },
@@ -288,15 +295,14 @@ List<Map<String, dynamic>> ongList = [
       },
       {
         "type": "text",
-        "text":
-            "Sistema dessalinizador, Poço artesiano, Açude, Barragem, Caminhão pipa.",
+        "text": "Sistema dessalinizador, Poço artesiano, Açudes e Barragem",
         "color": "0xFF0177CF",
         "textColor": "0xFFFEFEFE",
       },
       {
         "type": "text",
         "text":
-            "+3.700 Famílias Beneficiadas, +60.200.000L de água potável tratados e distribuídos",
+            "+3.700 Famílias Beneficiadas, +60.200.000L de água distribuídos",
         "color": "0xFF00AAA5",
         "textColor": "0xFFFEFEFE",
       },
@@ -331,15 +337,14 @@ List<Map<String, dynamic>> ongList = [
       },
       {
         "type": "text",
-        "text":
-            "Ativ. para crianças, cuidado à saúdes, profissionalização, e mais",
+        "text": "Ativ. para crianças, cuidado à saúdes, capacitações, e mais",
         "color": "0xFF4D9F46",
         "textColor": "0xFFFEFEFE",
       },
       {
         "type": "text",
         "text":
-            "+930 certificados, +37.700 apoios à saúde, +2.500 crianças beneficiadas",
+            "+930 certificados, +37.700 apoios saúde, +2.500 jovens beneficiados",
         "color": "0xFF426AB3",
         "textColor": "0xFFFEFEFE",
       },
@@ -352,31 +357,10 @@ List<Map<String, dynamic>> ongList = [
   {
     "name": "Instituto Dara",
     "info":
-        "Saúde e desenvolvimento humano por meio de implementação de uma abordagem integrada ao combate à pobreza.",
+        "Saúde e desenvolvimento humano por uma abordagem integrada ao combate à pobreza.",
     "path": "assets/images/dara0.jpg",
     "url": "https://dara.org.br/envolva-se/doe/",
     "widgets": [
-      {
-        "type": "image",
-        "path": "assets/images/dara1.jpg",
-      },
-      {
-        "type": "text",
-        "text":
-            "Atendimento direto a famílias, Influência em políticas públicas",
-        "color": "0xFF4DCB4D",
-        "textColor": "0xFFFEFEFE",
-      },
-      {
-        "type": "text",
-        "text": "Disseminação de conhecimento, Combate à pobreza",
-        "color": "0xFFFF0000",
-        "textColor": "0xFFFEFEFE",
-      },
-      {
-        "type": "image",
-        "path": "assets/images/dara2.jpg",
-      },
       {
         "type": "image",
         "path": "assets/images/dara3.png",
@@ -391,7 +375,28 @@ List<Map<String, dynamic>> ongList = [
       {
         "type": "text",
         "text":
-            "Ações integradas nas áreas de saúde, moradia, renda, cidadania e educação",
+            "Atendimento direto a famílias; Influência em políticas públicas",
+        "color": "0xFF4DCB4D",
+        "textColor": "0xFFFEFEFE",
+      },
+      {
+        "type": "image",
+        "path": "assets/images/dara1.jpg",
+      },
+      {
+        "type": "image",
+        "path": "assets/images/dara2.jpg",
+      },
+      {
+        "type": "text",
+        "text": "Disseminação de conhecimento, Combate à pobreza",
+        "color": "0xFFFF0000",
+        "textColor": "0xFFFEFEFE",
+      },
+      {
+        "type": "text",
+        "text":
+            "Ações nas áreas de saúde, renda, moradia, cidadania e educação",
         "color": "0xFF426AB3",
         "textColor": "0xFFFEFEFE",
       },
@@ -487,7 +492,7 @@ List<Map<String, dynamic>> ongList = [
   {
     "name": "Instituto Horas da Vida",
     "info":
-        "Conecção de empresas e profissionais voluntários da saúde para pessoas em situação de vulnerabilidade.",
+        "Empresas e profissionais voluntários da saúde para pessoas em vulnerabilidade econômica.",
     "path": "assets/images/horas0.png",
     "url": "https://www.horasdavida.org.br/quero-doar-horas-da-vida",
     "widgets": [
@@ -514,13 +519,13 @@ List<Map<String, dynamic>> ongList = [
       {
         "type": "text",
         "text":
-            "Para cada R\$ 1,00 investido em 2021, retornou-se para a sociedade R\$8,45 ...",
+            "Cada R\$ 1,00 investido em 2021, retornou-se para a sociedade ...",
         "color": "0xFFFFBF00",
       },
       {
         "type": "text",
         "text":
-            "... por meio de projetos sociais, campanhas e iniciativas de saúde",
+            "... R\$8,45 por meio de projetos, campanhas e iniciativas de saúde",
         "color": "0xFFFFBF00",
       },
       {
