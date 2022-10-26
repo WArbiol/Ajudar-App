@@ -121,7 +121,7 @@ List<Map<String, dynamic>> ongList = [
   {
     "name": "Idesam",
     "info":
-        "Para uma economia inclusiva e sustentável na Amazônia, contribuindo com a vida dos povos da locais.",
+        "Para uma economia inclusiva e sustentável na Amazônia, contribuindo com a vida dos povos locais.",
     "path": "assets/images/idesam0.png",
     "url": "https://doe.idesam.org/",
     "widgets": [
